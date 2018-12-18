@@ -24,7 +24,7 @@ function saveBookmark(e){
     console.log(localStorage.getItem('test'));
   */
 
-  // Test if bookmarks is null
+  // Test if bookmarkst is null
   if(localStorage.getItem('bookmarks') === null){
     // Init array
     var bookmarks = [];
@@ -85,7 +85,7 @@ function fetchBookmarks(){
     bookmarksResults.innerHTML += '<div class="well">'+
                                   '<h3>'+name+
                                   ' <a class="btn btn-default" target="_blank" href="'+addhttp(url)+'">Visit</a> ' +
-                                  ' <a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger" href="#">Delete</a> ' +
+                                  ' <a onclick="deleteBookmrk(\''+url+'\')" class="btn btn-danger" href="#">Delete</a> ' +
                                   '</h3>'+
                                   '</div>';
   }
